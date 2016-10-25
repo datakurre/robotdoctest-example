@@ -1,0 +1,7 @@
+/html/
+/doctrees/
+/docs/*.png
+/docs/_screenshots/*.png
+/geckodriver
+/geckodriver.log
+/env
