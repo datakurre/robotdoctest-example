@@ -26,4 +26,4 @@ Getting started
         ...    width=120  position=right
 
         Capture page screenshot
-        ...  _screenshots/pyconfi.png
+        ...    _screenshots/pyconfi.png
