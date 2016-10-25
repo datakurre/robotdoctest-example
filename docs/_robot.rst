@@ -14,11 +14,12 @@
 
     ${START_PAGE}  https://google.com/
     @{DIMENSIONS}  1024  768
+    ${BROWSER}     firefox
 
     *** Keywords ***
 
     Suite Setup
-        Open browser  ${START_PAGE}
+        Open browser  ${START_PAGE}  browser=${BROWSER}
         Set window size  @{DIMENSIONS}
 
     Suite Teardown
